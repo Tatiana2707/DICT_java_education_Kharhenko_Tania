@@ -1,46 +1,55 @@
 import java.util.Scanner;
 
 import static java.lang.Math.random;
-
 public class Hangman {
-    public static void main (String[] arg){
+    public static void main(String[] arg) {
         System.out.println("The game will be available soon");
-        String word;
+        char letter;
         String correct_word;
         correct_word = "java";
         Scanner in = new Scanner(System.in);
         int min;
         int max;
-        min=1;
-        max=4;
-        int cloose_word = min +(int)(random()*(max-min+1));
-        if (cloose_word==1){
+        int letters;
+        int num = 1;
+        min = 1;
+        max = 4;
+        int choose_word = min + (int) (random() * (max - min + 1));
+        if (choose_word == 1) {
             correct_word = "python";
-        }
-        else if (cloose_word == 2){
+        } else if (choose_word == 2) {
             correct_word = "java";
-        }
-        else if (cloose_word == 3){
+        } else if (choose_word == 3) {
             correct_word = "javascript";
-        }
-        else if (cloose_word == 4){
+        } else if (choose_word == 4) {
             correct_word = "kotlin";
         }
-        for (int i = 0; i < correct_word.length(); i++){
-            if (i<2){
-                System.out.print(correct_word.charAt(i));
+        letters = correct_word.length();
+        char[] word = new char[letters];
+        for (int i = 0; i < letters; i++) {
+            word[i] = '-';
+        }
+        for (int i = 0; i < 8; i++) {
+            System.out.println("Enter letter:");
+            letter = in.next().charAt(0);
+            for (int o = 0; o < letters; o++){
+                if (letter == correct_word.charAt(o)) {
+                    word[o] = letter;
+                }
             }
-            else {
-                System.out.println("-");
+            System.out.println(word);
+            for (int p = 0; p < letters; p++) {
+                if (word[p] == correct_word.charAt(p)) {
+                    num++;
+                }
+            }
+            if (num == letters) {
+                System.out.println("YOU SURVIVED");
+                System.exit(0);
+            } else {
+                num = 0;
             }
         }
-        word = in.nextLine();
-
-        if (correct_word.equals(word)){
-            System.out.println("YOU SURVIED");
-        }
-        else {
-            System.out.println("YOU LOST");
-        }
+        System.out.println("YOU LOST");
     }
 }
