@@ -22,7 +22,7 @@ public class CoffeMachine {
                     coffe_beans1 + "of coffe beans\n" +
                     cups1 + "of disposable cups\n" +
                     money + "of money\n");
-            System.out.println("What did you do? buy/fill/take");
+            System.out.println("What did you do? buy/fill/take/remaining/exit");
             tap = in.nextLine();
             if (tap.equals("fill")) {
                 System.out.println("Water +:");
@@ -65,6 +65,17 @@ public class CoffeMachine {
                     money += 6;
                     cups1--;
                 }
+            }
+            if ( tap.equals("remaining")){
+                System.out.println("The coffe machine has\n"+
+                        water1+"of water\n"+
+                        milk1+"of milk\n"+
+                        coffe_beans1+"of coffe beans\n"+
+                        cups1+"of disposable cups\n"+
+                        money+"of money\n");
+            }
+            if (tap.equals("exit")){
+                System.exit( 0);
             }
         } while (true);
     }
