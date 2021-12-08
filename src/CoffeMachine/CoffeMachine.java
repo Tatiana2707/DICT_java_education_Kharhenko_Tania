@@ -22,7 +22,7 @@ public class CoffeMachine {
             if (back == 2) {
                 System.out.println("Water +: ");
                 water2 = in.nextInt();
-                water1 += water2;
+                water1 += water2; //
                 System.out.println("Milk +: ");
                 milk2 = in.nextInt();
                 milk1 += milk2;
