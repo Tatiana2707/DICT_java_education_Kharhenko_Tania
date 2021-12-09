@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efb1c7c9-63f6-4cd0-8ff1-66b4661b9c74" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoffeMachine/CoffeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeMachine/CoffeMachine.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="20lnZX574hCLFcLC3eJi1fFcRsu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hangman" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CoffeMachine">
+    <configuration name="CoffeMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoffeMachine" />
+      <module name="DICT_java_education_Kharhenko_Tania" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CoffeMachine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efb1c7c9-63f6-4cd0-8ff1-66b4661b9c74" name="Changes" comment="" />
+      <created>1636628100633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636628100633</updated>
+      <workItem from="1636628106699" duration="2087000" />
+      <workItem from="1636630630648" duration="145000" />
+      <workItem from="1636630864891" duration="22000" />
+      <workItem from="1636630945894" duration="85000" />
+      <workItem from="1636631110458" duration="499000" />
+      <workItem from="1636631615369" duration="52000" />
+      <workItem from="1636631696336" duration="8100000" />
+      <workItem from="1637774641684" duration="210000" />
+      <workItem from="1637774961178" duration="657000" />
+      <workItem from="1637775659259" duration="9111000" />
+      <workItem from="1637837878877" duration="2575000" />
+      <workItem from="1637853881661" duration="397000" />
+      <workItem from="1637854286308" duration="6000" />
+      <workItem from="1637854374161" duration="1244000" />
+      <workItem from="1637855743898" duration="7000" />
+      <workItem from="1637855794459" duration="1422000" />
+      <workItem from="1637858483673" duration="22000" />
+      <workItem from="1637858536442" duration="506000" />
+      <workItem from="1637859047395" duration="3540000" />
+      <workItem from="1637930215233" duration="251000" />
+      <workItem from="1637930527529" duration="71000" />
+      <workItem from="1638874199848" duration="2759000" />
+      <workItem from="1638877223746" duration="405000" />
+      <workItem from="1638877662287" duration="1156000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
