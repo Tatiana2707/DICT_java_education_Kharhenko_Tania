@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class TicTacToe {
     public static void main (String[] args) {
         char[][] setka = new char[5][5];
+        int [] numb = new int [2];
+        boolean not_cont = false;
         int win_x = 0, win_o = 0, cont = 0;
         Scanner in = new Scanner(System.in);
         for (int r = 0; r < 5; r++) {
@@ -20,12 +22,28 @@ public class TicTacToe {
                 setka[q][w] = in.next().charAt(0);
             }
         }
-        for (int t = 0; t < 5; t++) {
+        do {for (int t = 0; t < 5; t++) {
             for (int y = 0; y < 5; y++) {
                 System.out.print(setka[t][y]);
             }
             System.out.println();
         }
+        do {
+            not_cont=false;
+            System.out.print("Enter the coordinates");
+            for (int o=0; o<2;o++){
+                numb[o]=in.nextInt();
+            }
+            if (numb[0]>3 || numb[1]>3){
+                System.out.println("Coordinates should be from 1 to 3!");
+                not_cont=true;
+            }
+            if (setka[numb[0]][numb[1]] == 'x' || setka[numb[0]][numb[1]] == 'o'){
+                System.out.println("This cell is occupied! Choose another one!");
+                not_cont = true;
+            }
+        } while (not_cont == true);
+        setka[numb[0]][numb[1]] = 'x';
         for (int y=1; y<4; y++){
             if (((setka[y][1] == setka[y][2]) && setka[y][3] == setka[y][2]) && setka[y][1] == 'x') {
                 win_x++;
@@ -65,5 +83,6 @@ public class TicTacToe {
         } else {
             System.out.println("Draw");
         }
+    }while (true);
     }
 }
